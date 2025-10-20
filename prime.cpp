@@ -3,7 +3,7 @@ using namespace std;
 int main(){
     bool isprime=true;
     int n;
-    cout<<"enter te number to be checked\n";
+    cout<<"enter the number to be checked\n";
     cin>>n;
     for(int i=2;i*i<=n;i++){
         if(n%i==0){
